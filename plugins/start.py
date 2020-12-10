@@ -9,9 +9,10 @@ async def start(client, message):
         [InlineKeyboardButton(
             "Report Bugs 😊", url="https://t.me/CyberBoyAyushBot")],
         [InlineKeyboardButton(
-            "DEVELOPER💻", url="https://github.com/CyberBoyAyush")
+            "DEVELOPER💻", url="https://github.com/CyberBoyAyush"),
          InlineKeyboardButton(
-            "Donate Us💰", url="https://upayi.me/ayushsharma.fam@idfcbank")]
+            "Donate Us💰", url="https://upayi.me/ayushsharma.fam@idfcbank")
+        ]
     ])
     welcomed = f"Hoi! <b>{message.from_user.first_name}</b>\n\nThis Is Youtube Video Downloader Bot🔥\n\nJoin @AyushBots Before Using It❤️\n\nHit /Help To Know More😁"
     await message.reply_text(welcomed, reply_markup=joinButton)
